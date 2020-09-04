@@ -1,4 +1,4 @@
-﻿#include "Board.h"
+#include "Board.h"
 #include<iostream>
 using namespace std;
 
@@ -761,6 +761,7 @@ void Board::LoadGameBoard()
 		_Common::gotoXY(100, line);
 		cout<<n <<" - " << tmp;
 		line++;
+		++n;
 	}
 
 	SetColor(6);
